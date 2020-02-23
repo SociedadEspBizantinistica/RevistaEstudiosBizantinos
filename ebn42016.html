@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Carmen García Bueno">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-miestilo.css">
+	<title>EB nº4 (2016)</title>
+</head>
+<body>
+	<header>
+	<!--Imagen de la cabecera -->
+	<img src="img/cabecera.png" class="img-fluid mx-auto d-block" alt="imagen de cabecera">
+	<!--Mensaje de alerta sobre Boostrap-->
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  		<p><strong><i class="fas fa-exclamation-triangle"></i>¡Atención!</strong></p>
+  		<p>Esta página está construida con Bootstrap 4. Es posible que su navegador no soporte todos los componentes y el contenido no se muestre adecuadamente.</p>
+  		<button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
+    	<span aria-hidden="true">&times;</span>
+  		</button>
+	</div>
+	<!--Barra de navegación -->
+	<div class="container">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="inicio.html" data-toggle="tooltip" title="About us"><i class="fas fa-home"></i>Inicio</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#barradenavegacion" aria-controls="barradenavegacion" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="barradenavegacion">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="reglamento.html" data-toggle="tooltip" title="Publication Regulations ">Reglamento</a>
+					</li>	
+					<li class="nav-item dropdown" data-toggle="tooltip" title="Click here to see the options">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Información para...</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="autores.html" data-toggle="tooltip" title="More information for authors">autores</a>
+							<a class="dropdown-item" href="editores.html" data-toggle="tooltip" title="Information about the roles of the Editorial Committee">editores</a>
+							<a class="dropdown-item" href="revisores.html" data-toggle="tooltip" title="More information for referees">revisores</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ebn62018.html" data-toggle="tooltip" title="Latest issue available">Número actual</a>
+					</li>
+					<li class="nav-item dropdown" data-toggle="tooltip" title="Click here to read previous issues">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Números anteriores</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="ebn52017.html" title="número 5">EB 5 (2017)</a>
+							<a class="dropdown-item" href="ebn42016.html" title="número 4">EB 4 (2016)</a>
+							<a class="dropdown-item" href="ebn32015.html" title="número 3">EB 3 (2015)</a>
+							<a class="dropdown-item" href="ebn22014.html" title="número 2">EB 2 (2014)</a>
+							<a class="dropdown-item" href="ebn12013.html" title="número 1">EB 1 (2013)</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!--Fin de la barra-->
+	</header>
+	<!--A partir de aquí comienza el contenido-->
+	<main class="container">
+		<div class="row">
+			<!--Esto es la barra lateral -->
+			<aside class="col-3">
+				<p><em>Estudios bizantinos</em> es una revista internacional y digital de acceso libre dedicada a los estudios bizantinos. Creada por la Sociedad Española de Bizantinística, da la bienvenida a artículos originales con contenido científico de gran calidad sobre cualquier aspecto de la civilización bizantina.</p>
+				<hr>
+				<h5>Mostrar contenidos</h5>
+				<ul>
+					<li><a href="indexautores.html" title="mostrar autores">Por autor</a></li>
+					<li><a href="error404.html" title="mostrar títulos">Por título</a></li>
+				</ul>
+				<hr>
+				<h5>ISSN</h5>
+				<p>2014-9999</p>
+				<hr>
+				<h5>ÍNDICES</h5>
+				<ul>
+					<li><a href="http://www.brepols.net/Pages/BrowseBySeries.aspx?TreeSeries=APH-O" title="Brepols">Brepols</a></li>
+					<li><a href="http://interclassica.um.es/investigacion/hemeroteca/e/estudios_bizantinos" title="Interclassica">Interclassica</a></li>
+					<li><a href="http://www.publicacions.ub.edu/revistes/estudiosBizantinos01/default.asp?idioma=es#" title="ISOC">ISOC</a></li>
+					<li><a href="http://www.latindex.unam.mx/latindex/ficha?folio=24382" title="Latindex">Latindex</a></li>
+					<li><a href="http://miar.ub.edu/issn/2014-9999" title="MIAR">MIAR</a></li>
+				</ul>
+				<hr>
+				<h5>Búsqueda</h5>
+				<form action="https://www.google.es/search" method="get">
+					<label>
+						<input type="search" name="buscar" placeholder="Escriba aquí su búsqueda">
+					</label>
+					<button type="submit" class="btn btn-primary">Enviar</button><button type="reset" class="btn btn-warning">Borrar</button>
+				</form>
+				<hr>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional</a>.
+				<hr>
+				<img src="img/logomld75.jpg" class="img-fluid" alt="logo máster Letras Digitales UCM">
+			</aside>
+			<!--Esta es la parte de contenido -->
+			<div class="col-9">
+				<div class="container">
+					<h3><em>Estudios bizantinos</em> nº4 (2016)</h3>
+				</div>
+				<article class="container" id="art29">
+					<div class="row">
+						<div class="col-9">Esteban Moreno Resano</div>
+						<div class="col-3">1-14</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>La transformación administrativa de Bizancio en Constantinopla</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04MorenoResano/estudiosBizantinos04_1298_227457_5730_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen29" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen29" tabindex="-1" role="dialog" aria-labelledby="resumenart29" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart29">Resumen (<span lang="la">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>El propósito de este trabajo es ofrecer un estudio de la transformación institucional de Bizancio en Constantinopla elaborado a partir del análisis de las suscripciones de las leyes imperiales conservadas en el <span lang="la"><em>Codex Theodosianus</em></span>. Constantinopla, antes de constituirse en una nueva capital, fue concebida como una fundación destinada a establecer en la provincia de Europa a veteranos itálicos de la guerra contra los sármatas (322) y a conmemorar la victoria sobre Licinio del año 324. El emperador Constantino encontró en la antigua Bizancio un lugar adecuado para controlar desde allí las provincias orientales con funcionarios leales.</p>
+        							<p>Palabras clave: Constantino I el Grande, Constantinopla, Administración imperial, <span lang="la"><em>Codex Theodosianus</em></span></p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p>Our aim in this paper is to study the institutional transformation of Byzantium into Constantinople according to the analysis of the subscriptions of imperial laws preserved in the <em>Theodosian Code</em>. Constantinople, before becoming a new imperial capital, was conceived as a foundation to settle Italic veterans from the Sarmatic war (322) in the Roman province of Europa and to commemorate the victory over Licinius in 324. Only later, emperor Constantine considererd the old Byzantium to be a suitable location to create an administrative centre for ruling the Eastern provinces of the Empire with loyal officials.</p>
+        							<p lang="en-GB">Keywords: Constantine I the Great, Constantinople, Imperial Administration, <em>Theodosian Code</em></p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art30">
+					<div class="row">
+						<div class="col-9">Pablo A. Cavallero, Tomás Fernández</div>
+						<div class="col-3">15-37</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>La</em> Vida de Juan el Limosnero<em> de Leoncio de Neápolis (s. VII). Sus recensiones breve, media y larga</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04CavalleroFernandez/estudiosBizantinos04_1299_227457_5752_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen30" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen30" tabindex="-1" role="dialog" aria-labelledby="resumenart30" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart30">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Se estudia la relación de los manuscritos que testimonian las versiones larga, media y breve de la <em>Vida de Juan el Limosnero</em>; se establece que hay errores separativos entre los testimonios de la recensión larga (mss. <em>OV</em>) y los de la media-breve. Se propone la existencia de contaminación entre V y la recensión media. El acuerdo de <em>O</em> con la recensión breve demostraría que la lección en cuestión se encontraba ya en el arquetipo.</p>
+        							<p>Palabras clave: Leoncio de Neápolis, Hagiografía bizantina, Crítica textual, <em>Vida de Juan el Limosnero</em></p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">This paper studies the relationship between the long, middle, and short recension of the <em>Life of John the Almsgiver</em>. It aims to establish the existence of separative mistakes in the long recension (mss. <em>OV</em>) and in the middle-short one. It also advocates the possibility that the middle recension was contaminated with V. In that case, the coincidence between <em>O</em> and the short recension would prove that the variant they share was in the archetype.</p>
+        							<p lang="en-GB">Keywords: Leontius from Neapolis, Byzantine Hagiography, Textual Criticism, <em>Life of John the Almsgiver</em></p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art31">
+					<div class="row">
+						<div class="col-9">David Sevillano López</div>
+						<div class="col-3">39-65</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>Diplomacia en la Ruta de la Seda: las embajadas a China en los siglos VII-VIII</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04SevillanoLopez/estudiosBizantinos04_1300_227457_588_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen31" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen31" tabindex="-1" role="dialog" aria-labelledby="resumenart31" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart31">Resumen (<span lang="la">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Aunque las fuentes bizantinas no hablan de los contactos diplomáticos con el Extremo Oriente, las crónicas chinas cuentan la llegada de una serie de embajadas al Imperio chino procedentes de Bizancio en los años 643-719, durante los reinados de los emperadores bizantinos Constante II, Tiberio III y León III. Estas embajadas mostraron a los chinos la visión de un Imperio rico y próspero que, acosado por el recién aparecido Califato, parecía buscar algún tipo de alianza con China, aunque no obtuvo más que un apoyo moral.</p>
+        							<p>Palabras clave: Bizancio, Dinastía Tang, Ruta de la Seda, Diplomacia</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">Although the Byzantine sources don't mention diplomatic contacts with the Far East, the Chinese chronicles narrate the arrival of different embassies to the Chinese Empire from Byzantium between 643 and 719, during the reigns of the Byzantine emperors Constans II, Tiberius III, and Leo III. These embassies showed to the Chinese the image of a rich and prosperous empire that, threatened by the newly created Caliphate, seemed to seek some sort of alliance with China, but did not get more than moral support.</p>
+        							<p lang="en-GB">Keywords: Byzantium, Tang dynasty, Silk Road, Diplomacy</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art32">
+					<div class="row">
+						<div class="col-9">Juan Manuel Pinazo Pinazo</div>
+						<div class="col-3">67-93</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>Las</em> <span lang="la">Orationes Pro Sacris Imaginibus</span> <em>de Juan Damasceno: un nuevo enfoque cronológico desde la perspectiva teológica</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04PinazoPinazo/estudiosBizantinos04_1302_227457_5823_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen32" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen32" tabindex="-1" role="dialog" aria-labelledby="resumenart32" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart32">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Las <span lang="la"><em>Orationes pro sacris imaginibus</em></span>, la obra en defensa de las imágenes sagradas de Juan Damasceno, han sido objeto de debate en cuanto a su ubicación, tanto cronológicamente como en el contexto adecuado de la Controversia iconoclasta, por parte de los estudios recientes que han llevado a cabo una revisión de las fuentes y de las teorías con las que se aborda el periodo del Iconoclasmo. Mediante el análisis teológico de las homilías proponemos arrojar luz sobre la problemática cronológica, situando los tres <em>Discursos</em> durante el reinado de Constantino V y no en los inicios de la controversia, una contextualización de la obra más acorde con los debates teológicos sobre las imágenes del momento.</p>
+        							<p>Palabras clave: imagen, icono, Concilio de Hieria, Iconoclasmo, Encarnación</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p>The <span lang="la"><em>Orationes pro sacris imaginibus</em></span>, the work in defense of the sacred images by John Damascene, has been debated in therms of its location, both chronologically and in the proper context of the Iconoclastic controversy, by recent studies that have led to a review of the sources and theories with which the period of Iconoclasm was approached. Through the theological analysis of the homilies we propose to shed light on the chronological issues, placing the three <em>Discourses</em> during the reign of Constantine V and not in the beginning of the controvesy, a contextualization of the work more in line with the theological debates on the images of the moment.</p>
+        							<p lang="en-GB">Keywords: Image, Icon, Council of Hiereia, Iconoclasm, Incarnation</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art33">
+					<div class="row">
+						<div class="col-9">Alex Rodríguez Suárez</div>
+						<div class="col-3">95-105</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>Interacción entre latinos y bizantinos en vísperas de la Cuarta Cruzada (1204): el testimonio de Teodoro Balsamón</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04RodriguezSuarez/estudiosBizantinos04RodriguezSuarez.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen33" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen33" tabindex="-1" role="dialog" aria-labelledby="resumenart33" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart33">Resumen (<span lang="la">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Teodoro Balsamón, patriarca titular de Antioquía, es un conocido personaje de la segunda mitad del siglo XII. Su postura antilatina ha sido relacionada con el hecho de que Teodoro nunca pudo coupar su sede. La ciudad siria estaba bajo control cruzado y por consiguiente tenía un patriarca de rito romano. En este artículo, sin embargo, se analizan dos referencias de la obra de Teodoro que demuestran que su resentimiento hacia los latinos no sólo estaba basado en razones personales. El estudio de un breve tratado y un comentario indican que Teodoro fue testigo del impacto que los intercambios entre bizantinos y latinos tuvieron en la sociedad de su época. En este contexto, Teodoro se convirtió en defensor de la Iglesia bizantina y sus tradiciones.</p>
+        							<p>Palabras clave: Teodoro Balsamón, Antioquía, Manuel I Comneno, literatura antilatina, interacción cultural, siglo XII</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">Theodore Balsamon, nominal patriarch of Antioch, is a well known figure from the second half of the twelfth century. His anti-Latin stance hasa been associated with the fact that Balsamon was not allowed to take over his appointed see. The Syrian city was under Crusader rule and thus its patriarch was of Roman rite. Nevertheless, two references analysed in this paper demonstrate that his resentment towards the Latins was not only the result of his personal circumstances. The study of a brief treatise and a commentary shows that Balsamon witnessed the impact that the interaction between Byzantines and Latins had on the society of his period. As a consequence, Balsamon became an advocate of the Byzantine church an its traditions.</p>
+        							<p lang="en-GB">Keywords: Theodore Balsamon, Antioch, Manuel I Komnenos, Anti-Latin Literature, Cultural Interaction, Twelfth Century</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art34">
+					<div class="row">
+						<div class="col-9" lang="it">Mattia C. Chiriatti</div>
+						<div class="col-3">107-121</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>El</em> typikón <em>de San Nicolás de casole: un monasterio, un</em> scriptorium <em>y una biblioteca</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04Chiriatti/estudiosBizantinos04_1304_227457_5852_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen34" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen34" tabindex="-1" role="dialog" aria-labelledby="resumenart34" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart34">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Un <em>typikón</em>, conservado en la Biblioteca Nazionale Universitaria de Turín bajo la signatura C III 17 (gr. 216), retrata la laboriosa actividad cultural del monasterio de San Nicolás de Casole (gr. <em>ton Kasoulon</em>), fundado en 1098/99 por el monje José, gracias al patronato de Bohemundo, príncipe de Tarento y de Antioquía, a unas pocas millas al sur de Otranto (Lecce), en el extremo sureste de Italia. A partir del testimonio proporcionado por el manuscrito, se puede reconstruir la actividad diaria del <span lang="la"><em>scriptorium</em></span> como centro neurálgico de cultura y transmisión del saber mediante la copia de manuscritos. Este factor permitió una considerable difusión de textos tanto en el ámbito religioso como en el laico, convirtiendo el cenobio hidruntino en uno de los centros más eminentes de cultura bizantina del sur de Italia.</p>
+        							<p><em>typikón</em>, San Nicolás de Casole, <em>scriptorium</em>, manuscritos griegos, Apulia bizantina, San Nicola di Casole</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">A <em>typikon</em>, stored in the National Library of the University of Turin under the signature C III 7 (gr. 216), portrays the industrious cultural activity of the monastery of St. Nicholas of Casole (gr. <em>ton Kasoulon</em>), founded in 1098/99 by the monk Joseph, thanks to the patronage of Bohemund, prince of Taranto and Antioch, about a few miles south of Otranto (Lecce), in the south-eastern tip of Italy. According to the testimony of the manuscript, it can be given a broad outline of the scriptorium's daily activity as a crucial centre of culture and knowledge's transmission through the manuscripts' copying. This factor allowed a substantial diffusion of texts both in the religious either in the secular milieu, by making the Hydruntine coenobium to become one of the Byzantine culture's most outstanding centres in Southern Italy.</p>
+        							<p lang="en-GB">Keywords: Typikon, St. Nicholas of Casole, Scriptorium, Greek Manuscripts, Byzantine Apulia, San Nicola di Casole</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art35">
+					<div class="row">
+						<div class="col-9" lang="it">Giorgio Vespignani</div>
+						<div class="col-3">123-131</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>Un viajero en la Constantinopla del siglo XV poco conocido: el borgoñón Bertrandon de la Broquière</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04Vespignani/estudiosBizantinos04Vespignani.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen35" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen35" tabindex="-1" role="dialog" aria-labelledby="resumenart35" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart35">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p><span lang="fr"><em>Le voyage d'Outremer</em></span>, el relato del viaje (redactado en 1455 y publicado en 1457) de Bartrandón de la Broquière, consejero del duque de Borgoña Felipe III el Bueno, embajador en Oriente próximo y Constatinopla en los años 1432-1433, no es un texto demasiado conocido, salvo algunos pasajes sobre los monumentos más famosos de la ciudad (ed. Ch. Schefer, París 1892). El relato resulta interesante bajo muchos aspectos, más allá de las descripciones de iglesias o monumentos: llaman la atención sobre todo las impresiones del autor sobre el ambiente de la corte imperial y los muchos personajes encontrados. Se trata, además de uno de los últimos acercamientos entre dos mentalidades distintas, la romano-oriental y la occidental, pocos años antes de la llegada de la delegación bizantina a Italia para el Concilio de la Unión de las Iglesias del 1438-1439 (encabezada por el propio <span lang="la"><em>basileus</em></span> Juan VIII Paleólogo), unos veinte años antes de la caída de la <span lang="la"><em>Polis</em></span>.</p>
+        							<p>Palabras clave: Eneas Silvio Piccolomini, viajeros medievales, Imperio bizantino tardío, Constantinopla, Borgoña, Cruzadas, Pío II</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB"><span lang="fr"><em>Le voyage d'Outremer</em></span> (comoposed in 1455 and published in 1457), the account of the travel made by Bertrandon de la Broquière, counsellor of Philip III the Good, Duke of Burgundy, and ambassador to the Middle East and Constantinople in 1432-1433, is not a well-known text except for some sections regarding the most famous landmarks in the Polis (ed. Ch. Schefer, Paris 1892). The account is interesting in many ways, apart from descriptions of churches and landmarks: tehre is a remarkable interest in his personal impresions about the atomesphere at the imperial court as well as on the many people he met. Besides, <em>Le voyage</em> is one of the latest accounts reflecting the approach of two different mindsets, the eastern-roman and the western, shortly before the arrival in Italy of the Byzantine delegation to the Council of the Church Union in 1428-1439 (led by the <span lang="la"><em>basileus</em></span> John VIII Palaiologos in person), twenty years before the fall of the <span lang="la"><em>Polis</em></span>.</p>
+        							<p lang="en-GB">Keywords: Bertrandon de la Broquière, Medieval Travellers, Late Byzantine Empire, Constantinople, Burgundy, Crusades, Pius II, Eneas Silvio Piccolomini</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art36">
+					<div class="row">
+						<div class="col-9" lang="it">Fabio Acerbi</div>
+						<div class="col-3">205-229</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="en-GB"><em>Byzantine Recensions of Greek Mathematical and Astronomical Texts: a Survey</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos04Acerbi/estudiosBizantinos04_1306_227457_5934_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen36" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen36" tabindex="-1" role="dialog" aria-labelledby="resumenart36" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart36">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Este artículo contiene una panorámica que se pretende completa de las recensiones bizantinas de textos matemáticos y astronómicos griegos junto con un esbozo de sus rasgos estilísticos principales. Se proporcionan y discuten listas de tales recensiones organizadas según dos criterios: el manuscrito que contiene la revisión y la obra revisada. Se presenta brevemente a los estudiosos bizantinos que pueden ser asociados con cierta probabilidad a alguna de estas recensiones. Un apéndice final ofrece un análisis completo del modo en que un teorema específico fue modificado por cierto número de revisores. El artículo incluye asimismo discusiones amplias de las dos enciclopedias matemáticas principales reunidas durante la época paleóloga.</p>
+        							<p>Palabras clave: ciencia griega, recensiones bizantinas, Matemáticas, Astronomía, manuscritos</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p>This article contains a fairly complete survey of Byzantine recensions of Greek mathematical and astronomical texts, along with an outline of their main stylistic features. Lists of such recensions are provided and discussed, keyed on two different parameters: the manuscript containing the revision and the revised work. Byzantine scholars likely or certainly to be associated with any of the recensions are briefly introduced. A final appendix offers a full analysis of the way a specific theorem was modified by a number of revisers. The article also includes extensive discussions of the two main mathematical encyclopaedias assembled during the Palaiologan period.</p>
+        							<p lang="en-GB">Keywords: Greek Science, Byzantine Recensions, Mathematics, Astronomy, Manuscripts</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+			</div>
+		</div>	
+	</main>
+<!--Pie de página -->
+<footer class="bg-light">
+<div class="container">
+	<div class="container" id="logos">
+		<a href="https://bizantinistica.blogspot.com" title="Ir a la web de la Sociedad Española de Bizantinística"><img src="img/logoSEB.jpg" id="logoSEB" class="img-fluid" alt="logo Sociedad Española de Bizantinística"></a>
+		<a href="http://cchs.csic.es/" title="Ir a la web del Centro de Ciencias Humanas y Sociales del CSIC"><img src="img/logoCCHS.png" id="logoCCHS" class="img-fluid" alt="logo CCHS-CSIC"></a>
+		<a href="https://www.csic.es/" title="Ir a la web del Consejo Superior de Investigaciones Científicas (CSIC)"><img src="img/logoCSIC.jpg" id="logoCSIC" class="img-fluid" alt="logo CSIC-Ministerio"></a>
+	</div>
+	<div class="container">
+		<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contacto" title="Contact">Contacto</button>
+		<div class="modal fade" id="contacto"> 
+		<div class="modal-dialog modal-dialog-centered modal-lg m">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Contacto</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+				<p>Página web diseñada por <a href="https://www.linkedin.com/in/carmengarciabueno/">Carmen García Bueno</a> para la <a href="https://bizantinistica.blogspot.com/">Sociedad Española de Bizantinística</a>.</p>
+				<p>Para cualquier cuestión técnica, duda o sugerencia, pueden ponerse en contacto con nosotros a través del <a href="mailto:estudiosbizantino@gmail.com">correo electrónico</a>.</p>
+				<strong>Dónde estamos:</strong>
+				<address>	
+					<p>Sociedad Española de Bizantinística<br>
+					Centro de Ciencias Humanas y Sociales - CSIC, despacho 1C16<br>
+					c/ Albasanz 26-28<br>
+					28037 Madrid (España)
+					</p>
+				</address>
+				<hr>
+				<p lang="en-GB">Website designed by <a href="https://www.linkedin.com/in/carmengarciabueno/">Carmen García Bueno</a> for the <a href="https://bizantinistica.blogspot.com/">Spanish Society of Byzantine Studies</a>.</p>
+				<p lang="en-GB">For technical issues or any other question, you can reach us via <a href="mailto:estudiosbizantino@gmail.com">e-mail</a> or at the aforementioned address.</p>	
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" title="Close">Cerrar</button>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+<script src="jquery/jquery-3.4.1.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+</script>
+</body>
+</html>

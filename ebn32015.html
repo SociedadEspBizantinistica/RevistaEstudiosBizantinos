@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Carmen García Bueno">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-miestilo.css">
+	<title>EB nº3 (2015)</title>
+</head>
+<body>
+	<header>
+	<!--Imagen de la cabecera -->
+	<img src="img/cabecera.png" class="img-fluid mx-auto d-block" alt="imagen de cabecera">
+	<!--Mensaje de alerta sobre Boostrap-->
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  		<p><strong><i class="fas fa-exclamation-triangle"></i>¡Atención!</strong></p>
+  		<p>Esta página está construida con Bootstrap 4. Es posible que su navegador no soporte todos los componentes y el contenido no se muestre adecuadamente.</p>
+  		<button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
+    	<span aria-hidden="true">&times;</span>
+  		</button>
+	</div>
+	<!--Barra de navegación -->
+	<div class="container">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="inicio.html" data-toggle="tooltip" title="About us"><i class="fas fa-home"></i>Inicio</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#barradenavegacion" aria-controls="barradenavegacion" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="barradenavegacion">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="reglamento.html" data-toggle="tooltip" title="Publication Regulations ">Reglamento</a>
+					</li>	
+					<li class="nav-item dropdown" data-toggle="tooltip" title="Click here to see the options">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Información para...</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="autores.html" data-toggle="tooltip" title="More information for authors">autores</a>
+							<a class="dropdown-item" href="editores.html" data-toggle="tooltip" title="Information about the roles of the Editorial Committee">editores</a>
+							<a class="dropdown-item" href="revisores.html" data-toggle="tooltip" title="More information for referees">revisores</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ebn62018.html" data-toggle="tooltip" title="Latest issue available">Número actual</a>
+					</li>
+					<li class="nav-item dropdown" data-toggle="tooltip" title="Click here to read previous issues">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Números anteriores</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="ebn52017.html" title="número 5">EB 5 (2017)</a>
+							<a class="dropdown-item" href="ebn42016.html" title="número 4">EB 4 (2016)</a>
+							<a class="dropdown-item" href="ebn32015.html" title="número 3">EB 3 (2015)</a>
+							<a class="dropdown-item" href="ebn22014.html" title="número 2">EB 2 (2014)</a>
+							<a class="dropdown-item" href="ebn12013.html" title="número 1">EB 1 (2013)</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!--Fin de la barra-->
+	</header>
+	<!--A partir de aquí comienza el contenido-->
+	<main class="container">
+		<div class="row">
+			<!--Esto es la barra lateral -->
+			<aside class="col-3">
+				<p><em>Estudios bizantinos</em> es una revista internacional y digital de acceso libre dedicada a los estudios bizantinos. Creada por la Sociedad Española de Bizantinística, da la bienvenida a artículos originales con contenido científico de gran calidad sobre cualquier aspecto de la civilización bizantina.</p>
+				<hr>
+				<h5>Mostrar contenidos</h5>
+				<ul>
+					<li><a href="indexautores.html" title="mostrar autores">Por autor</a></li>
+					<li><a href="error404.html" title="mostrar títulos">Por título</a></li>
+				</ul>
+				<hr>
+				<h5>ISSN</h5>
+				<p>2014-9999</p>
+				<hr>
+				<h5>ÍNDICES</h5>
+				<ul>
+					<li><a href="http://www.brepols.net/Pages/BrowseBySeries.aspx?TreeSeries=APH-O" title="Brepols">Brepols</a></li>
+					<li><a href="http://interclassica.um.es/investigacion/hemeroteca/e/estudios_bizantinos" title="Interclassica">Interclassica</a></li>
+					<li><a href="http://www.publicacions.ub.edu/revistes/estudiosBizantinos01/default.asp?idioma=es#" title="ISOC">ISOC</a></li>
+					<li><a href="http://www.latindex.unam.mx/latindex/ficha?folio=24382" title="Latindex">Latindex</a></li>
+					<li><a href="http://miar.ub.edu/issn/2014-9999" title="MIAR">MIAR</a></li>
+				</ul>
+				<hr>
+				<h5>Búsqueda</h5>
+				<form action="https://www.google.es/search" method="get">
+					<label>
+						<input type="search" name="buscar" placeholder="Escriba aquí su búsqueda">
+					</label>
+					<button type="submit" class="btn btn-primary">Enviar</button><button type="reset" class="btn btn-warning">Borrar</button>
+				</form>
+				<hr>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional</a>.
+				<hr>
+				<img src="img/logomld75.jpg" class="img-fluid" alt="logo máster Letras Digitales UCM">
+			</aside>
+			<!--Esta es la parte de contenido -->
+			<div class="col-9">
+				<div class="container">
+					<h3><em>Estudios bizantinos</em> nº3 (2015)</h3>
+					<p>El tercer volumen de <em>Estudios Bizantinos</em> es un homenaje al profesor, bizantinista y pionero de Paleografía griega en España Antonio Bravo García (Universidad Complutense de Madrid).</p>
+					<p lang="en-GB">The third issue of <em>Estudios Bizantinos</em> honours byzantinist and pionner of Greek Palaeography Studies in Spain professor Antonio Bravo García (Complutense University of Madrid).</p>
+				</div>
+				<article class="container" id="art19">
+					<div class="row">
+						<div class="col-9">Douwe Tj. Sieswerda</div>
+						<div class="col-3">1-19</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="en-GB"><em>Making God Speak to Your Advantage (</em>Haggai <em>2:8)</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Sieswerda/estudiosBizantinos03_1212_227457_5422_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen19" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen19" tabindex="-1" role="dialog" aria-labelledby="resumenart19" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart19">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p><q>Mía es la plata y mío es el oro</q> (<em>Hageo</em> 2:8). Con estas palabras puestas en boca de Dios, el profeta Hageo pretendía dar ánimos a los judíos, que a su vuelta de la cautividad babilonia planeaban construir un nuevo templo y dudaban si este Segundo templo igualaría al primero en belleza y gloria. Este artículo trata del uso y abuso del mensaje divino en época bizantina, las distintas interpretaciones a las que fue sometido y la diversidad de intenciones con las que se presentaba.</p>
+        							<p>El Padre de la Iglesia Juan Crisóstomo polemizó con algunos de sus fieles sobre el llamamiento egoísta y falso de <em>Hageo</em> 2:8 y sobre la fraudulenta secuela añadida por los falsificadores: <q>... y lo daré a quien yo quiera</q>. Esto fue inventado, defiende, por ricos avarientos que intentaban poner el sello de la aprobación divina sobre su riqueza adquirida injustamente. Los fieles criticados por Crisóstomo difundieron oralmente su interpretación del texto de Hageo, pero también distintos autores se refirieron a él utilizándolo de todos los modos posibles, desde la manipulación grave del texto a otras distorsiones más «inocentes». El presente artículo las rastrea desde época de Crisóstomo hasta el final del Imperio.</p>
+        							<p>Palabras clave: estudios bíblicos, citas bíblicas, Patrística, literatura bizantina, Juan Crisóstomo</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB"><q>Mine is the silver, and Mine the gold</q> (<em>Haggai</em> 2:8). With these words from the mouth of God the prophet Haggai meant to encourage the Jews, who after their return from the Babylonian Captivity prepared to build a new Temple, and doubted whether this Second Temple would in beauty and glory equal the First. This article is about the use and misuse of the divine message in Byzantine times, the various interpretations to which it was subjected, and the diversity of the intentions with which it was brought forward.</p>
+        							<p lang="en-GB">Church Father John Chrysostom clashed with some of his believers over a slefish nd false appeal to <em>Haggai</em> 2:8, and over a fraudulent sequel added by the falsifiers: <q>... and to whom if I wish I give it</q>. This was invented, he maintains, by the greedy among the rich, who aimed at putting the stamp of divine approval upon their unjustly acquired wealth. The believers criticized by Chrysostom spread their interpretation of the Haggai verse by word of mouth, but various authors, too, referred to it, putting it to all kinds of uses, from serious misrepresentation of the text to more "innocent" ones, all of which this article traces from Chrysostom's time until late in the Empire's existence.</p>
+        							<p lang="en-GB">Keywords: Biblical Studies, Bible citations, Patristics, Byzantine Literature, John Chrysostom</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art20">
+					<div class="row">
+						<div class="col-9" lang="de">Ernst Gamillscheg</div>
+						<div class="col-3">21-28</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="de"><em>Bemerkungen zu Kreuzdarstellungen mit Tetragrammen</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Gamillscheg/estudiosBizantinos03Gamillscheg.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen20" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen20" tabindex="-1" role="dialog" aria-labelledby="resumenart20" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart20">Resumen (<span lang="en-GB">Abstract</span>, <span lang="fr">Résumé</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Discutimos y sugerimos la relación entre las cruces con tetragramas en el Ms. Sofia, Dujčev Center, gr. 212 (Evangeliario) y el Ms. Città del Vaticano, Biblioteca Apostolica Vaticana, Vat. gr. 463 (Gregorio de Nacianzo). La posición de las cruces con inscripciones en el ms. Vaticano se corresponde con el contenido de las homilías de Gregorio de Nacianzo. </p>
+        							<p>Palabras clave: manuscritos griegos, Liturgia, Evangelios, Gregorio de Nacianzo</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">We discuss and suggest the relationship between a cross with short inscriptions (tetragramms) in Ms. Sofia, Dujčev Center, gr. 212 (Lectionary of the Gospels) and Ms. Città del Vaticano, Bib-lioteca Apostolica Vaticana, Vat. gr. 463 (Gregory of Nazianz). The position of the crosses in the Vaticanus shows the relation between the text of the inscription and the homilies of Gregory of Nazianz.</p>
+        							<p>Keywords: Greek Manuscripts, Liturgy, Gospels, Gregory of Nazianz</p>
+        							<hr>
+        							<h6 lang="fr">Résumé</h6>
+        							<p lang="fr">Nous discutons et proposons le rapport entre les images de la croix et des inscriptions brèves (tetragrammes) dans le Ms. Sofia, Dujčev Center gr. 212 (Lectionnaire des Évangiles) et le Ms. Città del  Vaticano,  Biblioteca  Apostolica  Vaticana,  Vat.  gr.  463  (Grégoire  de  Nazianze).  La  position  des croix avec inscription dans le Vaticanus correspond au contenu des homélies de Grégoire de Nazianze.</p>
+        							<p lang="fr">Mots-clés: Manuscrits grecs, Liturgie, Evangiles, Grégoire de Nacianze</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art21">
+					<div class="row">
+						<div class="col-9" lang="fr">André Jacob</div>
+						<div class="col-3">29-43</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="fr"><em>La mise en forme de l'euchologe dans l'Italie méridionale. Quelques observations</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Jacob/estudiosBizantinos03_1214_227457_5456_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen21" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen21" tabindex="-1" role="dialog" aria-labelledby="resumenart21" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart21">Resumen (<span lang="en-GB">Abstract</span>, <span
+        								lang="fr">Résumé</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Esta nota expone de modo sucinto los procedimientos utilizados por los copistas de la Italia meridional para distinguir los diferentes elementos constitutivos del eucologio bizantino (plegarias, rúbricas, intervenciones diaconales, etc.), empezando por el más antiguo de ellos, el Eucologio Barberini (siglo VIII), el único conservado en uncial, y describiendo las modificaciones que el advenimiento de la minúscula introdujo en la presentación del libro entre los siglos X y XII</p>
+        							<p>Palabras clave: manuscritos griegos, liturgia bizantina, Codicología, cultura griega en Italia meridional, Ortodoxia, monacato</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">This brief contribution aims at exposing in a succint way the procedures used by scribes from Southern Italy to distinguish the different constituent parts of the Byzantine euchologion: prayers, rubrics, diaconal interventions. The analysis starts from the most ancient manuscript, the Barberini Euchologion (8th century), the only manuscript we preserve written in capital letters. Hereafter we describe the changes introduced by the advent of the minuscule handwriting in the book layout from the 10th-12th centuries.</p>
+        							<p lang="en-GB">Keywords: Greek Manuscripts, Byzantine Liturgy, Codicology, Greek Culture in Southern Italy, Orthodoxy, Monasticism</p>
+        							<hr>
+        							<h6 lang="fr">Résumé</h6>
+        							<p lang="fr">Cette note expose de manière succincte les procédés utilisés par les copistes de l'Italie méridionale pour distinguer les différents éléments constitutifs de l’euchologe byzantin (prières, rubriques, interventions diaconales,etc.), en commençant par le plus ancien d’entre eux, l’Euchologe Barberini (VIIIe siècle), seul oncial conservé, et en décrivant les modifications que l’avènement de la minuscule a introduites dans la présentation du livre entre le Xe et le XIIe siècle.</p>
+        							<p lang="fr">Mots-clés: Manuscrits grecs, Liturgie byzantine, Codicologie, Culture grecque en Italie méridionale, Orthodoxie, Monaquisme</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art22">
+					<div class="row">
+						<div class="col-9" lang="it">Daniele Bianconi</div>
+						<div class="col-3">45-73</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="it"><em>Sulla tradizione manoscritta delle epistole di Sinesio in età paleologa. Libri e copisti nella cerchia tricliniana</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Bianconi/estudiosBizantinos03Bianconi.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen22" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen22" tabindex="-1" role="dialog" aria-labelledby="resumenart22" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart22">Resumen (<span lang="en-GB">Abstract</span>, <span lang="it">Riassunto</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Esta contribución trata de la tradición manuscrita de la colección de cartas de Sinesio, un texto que gozó de gran éxito en Bizancio, especialmente durante el período paleólogo, cuando se convirtió en modelo de estilo y fue copiado intensamente. La identificación en algunos manuscritos de la escritura de Nicolás Triclines, Juan Pepagomeno y otros copistas, como cierto Juan de algún modo relacionado con Demetrio Triclinio, permite reconstruir una fase tricliniana, quizá una auténtica edición, en la historia del texto. </p>
+        							<p>Palabras clave: Sinesio, Nicolás Triclines, Juan Pepagomeno, Renacimiento paleólogo</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">This  paper  deals  with  the  manuscript  tradition  of  Synesius’  collection  of  letters,  a  text  which  enjoyed a great success in Byzantium especially during the Palaeologan period, when it became a model of style and was intensively copied. The identification in some manuscripts of the hand-writing of Nicholas Triclines, John Pepagomenos and some other scribes, such as a certain John, more or less connected with Demetrius Triclinius, allows to reconstruct a Triclinian stage, perhaps a veritable edition, in the history of the text.</p>
+        							<p lang="en-GB">Keywords: Synesius, Nicholas Triclines, John Pepagomenos, Palaeologan Renaissance</p>
+        							<hr>
+        							<h6 lang="it">Riassunto</h6>
+        							<p lang="it">Il contributo si occupa della tradizione manoscritta delle epistole di Sinesio, un testo che godette di un enorme successo a Bisanzio, specialmente durante l’età dei Paleologi, quando divenne un modello di stile e fu oggetto di un’intensa attività di copia. L’identificazione in alcuni manoscritti delle mani di Nicola Tricline, di Giovanni Pepagomeno e di alcuni altri copisti, come un certo Giovanni,  più  o  meno  connessi  alla  figura  di  Demetrio  Triclinio,  permette  di  ricostruire  nella  storia del testo una fase tricliniana, forse una vera e propria edizione.</p>
+        							<p lang="it">Parole chiave: Sinesio, Nicola Tricline, Giovanni Pepagomeno, Rinascenza paleologa</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art23">
+					<div class="row">
+						<div class="col-9">Inmaculada Pérez Martín</div>
+						<div class="col-3">75-99</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>El Madrid, Biblioteca Nacional, MSS/4641 de Coricio de Gaza, un nuevo manuscrito copiado por Gabriel de Mangana</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03PerezMartin/estudiosBizantinos03PerezMartin.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen23" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen23" tabindex="-1" role="dialog" aria-labelledby="resumenart23" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart23">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Matrit. 4641, un manuscrito que perteneció a Constantino Láscaris en el s. XV, es la copia más importante del corpus retórico de obras retóricas de Coricio de Gaza. Ofrecemos su análisis paleográfico y codicológico, precisando la fecha de la primera fase de su composición a finales del s. XIII o comienzos del s. XIV y una segunda fase (quizá en los años veinte del s. XIV) en la que Gabriel, conocido como monje de S. Jorge de Mangana en Constantinopla, y un colaborador anónimo completaron la copia añadiendo algunos discursos, <span lang="la"><em>hypotheseis</em></span> (títulos largos o textos introductorios) y <span lang="la"><em>protheoriai</em></span> (comentarios explicativos), el índice del manuscrito y una falsa carta de Focio que no es más que el <em>codex</em> 160 de su <span lang="la"><em>Bibliotheca</em></span>.</p>
+        							<p>Palabras clave: escuela de Gaza, tetórica tardo-antigua, Coricio, transmisión de textos, Paleografía griega</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">Matrit. 4641, a manuscript belonging to Konstantinos Laskaris in the 15th century, is the most important copy of the corpus of rhetorical works by Choricius of Gaza. We offer its codicological and paleographical analysis, precising the dating of its first stage of composition at the end of the 13th century or the beginning of the 14th century and a second stage (perhaps from the 1320’s) when Gabriel, known as monk of St George of Mangana in Constantinople, and an anonymous assistant completed the copy adding several discourses, <span lang="la"><em>hypotheseis</em></span> (long titles or introductory texts) and <span lang="la"><em>protheoriai</em></span> (explanatory comments), the index of contents, and a forged letter by Photius which is simply the codex 160 of his <span lang="la"><em>Bibliotheca</em></span>.</p>
+        							<p lang="en-GB">Keywords: School of Gaza, Late-antique Rhetoric, Choricius, Textual transmission, Greek Paleography</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art24">
+					<div class="row">
+						<div class="col-9">Teresa Martínez Manzano</div>
+						<div class="col-3">101-121</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>Una interpolación bizantina de origen árabe en Dioscórides</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03MartinezManzano/estudiosBizantinos03_1217_227457_5559_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen24" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen24" tabindex="-1" role="dialog" aria-labelledby="resumenart24" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart24">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>El tratado farmacológico de Dioscórides <span lang="la"><em>De materia medica</em></span> presenta dentro del Libro IV una interpolación apócrifa sobre el <span lang="grc"><em>μυροβάλανον κίτρινον</em></span>. Este breve texto está presente en la edición aldina de 1499 y en doce manuscritos de los que el más antiguo es el Par. gr. 2183, copiado en el Monasterio de S. Juan Pródromo-Petra a mediados del s. XIV. Se ofrece el texto griego acompañado de traducción española y comentario y se presta especial atención a una serie de términos botánicos ajenos al griego clásico y para los que los léxicos botánicos greco-orientales transmitidos en muchos manuscritos bizantinos delatan un origen árabe. Se demuestra que la principal fuente de esta interpolación procede de la obra del médico bizantino de la primera mitad del s. XIV Juan Zacarías Actuario, buen conocedor de la medicina árabe, y que el <span lang="la"><em>scriptorium</em></span>-biblioteca del Monasterio de Pródromo-Petra fue el lugar en el que presumiblemente se produjo tal interpolación. </p>
+        							<p>Palabras clave: Dioscórides, Juan Zacarías Actuario, monasterio de Pródromo-Petra en Constantinopla, glosarios griegos, manuscritos griegos, botánica griega y bizantina</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">Book IV of Dioscorides’ pharmacological treatise <span lang="la"><em>De materia medica</em></span> includes an apocryphal interpolation on the <span lang="grc"><em>μυροβάλανον κίτρινον</em></span>. This short text is present both in the Aldine edition of 1499 and in twelve manuscripts, the oldest of which is Par. gr. 2183, copied at the Monastery of St John Prodromos at Petra in the middle of the 14th century. I here offer the Greek text along with a Spanish translation and commentary. I pay special attention to a number of botanical terms foreign to classical Greek, to which Greek-Eastern botanical glossaries transmitted in many Byzantine manuscripts assign an Arabic origin. I argue that the main source for this interpolation is a text by the Byzantine doctor Ioannes Zacharias Aktouarios, a good connoisseur of Arabic medicine. The library-scriptorium of the Monastery of St John Prodromos was presumably the place where this interpolation was carried out.</p>
+        							<p lang="en-GB">Keywords: Dioscorides, Ioannes Zacharias Aktouarios, Monastery of St John Prodromos at Petra in Constantinople, Greek Glossaries, Greek Manuscripts, Greek and Byzantine Botany</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art25">
+					<div class="row">
+						<div class="col-9">Joseph A. Munitiz</div>
+						<div class="col-3">123-134</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="en-GB"><em>An Approach to Plethon: the</em> <span lang="la">De Virtutibus</span> <em>Revisited</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Munitiz/estudiosBizantinos03_1218_227457_5611_.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen25" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen25" tabindex="-1" role="dialog" aria-labelledby="resumenart25" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart25">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Inicialmente la recensión de una edición crítica del <span lang="la"><em>De virtutibus</em></span> de Gemisto Pletón, este artículo tiene en cuenta varios estudios recientes sobre Pletón; intenta mostrar cómo el tratado Sobre las virtudes puede devolvernos una imagen de Pletón no como un criptopagano sino como un ortodoxo de mentalidad abierta que intenta ampliar el horizonte cultural de sus coetáneos para incluir los valores de pensadores precristianos. </p>
+        							<p>Palabras clave: Filosofía bizantina, Jorge Gemisto Pletón, Paganismo, Ética cristiana</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">Originating as an extended review of a critical edition of the De virtutibus of Gemistos Plethon, this article takes into account many recent works on Plethon; it attempts to show how the little work On the virtues may provide access to a view of Plethon not as a crypto-advocate of paganism but as a broad-minded Orthodox believer, attempting to widen the cultural horizon of his contemporaries to include what is of value in pre-Christian thinkers</p>
+        							<p lang="en-GB">Keywords: Byzantine Philosophy, George Gemistos Plethon, Paganism, Christian Ethics</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art26">
+					<div class="row">
+						<div class="col-9" lang="de">Christian Gatsgeber</div>
+						<div class="col-3">135-165</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="de"><em>Griechishstudium in der Renaissance: eine Textübung aus dem italienisch-transalpinen Griechischhumanismus (Wien, ÖNB, cod. 3138)</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Gastgeber/estudiosBizantinos03Gastgeber.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen26" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen26" tabindex="-1" role="dialog" aria-labelledby="resumenart26" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart26">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Este artículo estudia la educación elemental de los humanistas italianos y luego transalpinos en las letras griegas y en los primeros textos que les resultaban muy familiares en sus versiones latinas como el <span lang="la"><em>Pater Noster</em></span>, el <span lang="la"><em>Ave Maria</em></span> o el <span lang="la"><em>Magnificat</em></span>. En este sentido, el análisis del último folio del ms. 3138 de la Biblioteca Nacional austríaca abre un camino complementario para abordar el helenismo en época renacentista: el aprendizaje de un griego elemental, a saber, las letras, su pronunciación y los primeros textos simples. En especial, la pronunciación de las vocales, solas y en combinación, necesitaba una explicación que las gramáticas griegas accesibles no ofrecían, al menos de los estudiosos griegos, los latinos fueron conscientes de esta dificultad y proporcionaron pasajes complementarios sobre la pronunciación. En concreto, el folio del ms. 3138 pone de manifiesto un hecho que puede observarse también en algunas de las primeras gramáticas impresas: los textos básicos que permiten un acceso inmediato al lenguaje eran textos tomados de la liturgia latina, lo que explica por qué son retraducidos del latín. Al determinar el origen cultural del experto escriba de este folio, el análisis muestra –aparte de faltas de ortografía occidentales– diferencias típicas en las correctas acentuación y puntuación. Adicionalmente, el artículo pretende sensibilizar a los estudiosos del humanismo renacentista griego con tales paratextos, a menudo transmitidos en hojas de guarda o en los márgenes. </p>
+        							<p>Palabras clave: instrucción básica en griego antiguo, Renacimiento, Helenismo, gramáticas griegas</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">The  paper  deals  with  the  elementary  education  of  Italian  and  then  transalpine  humanists  in  Greek letters and first texts that were well known to them from their Latin versions like the <span lang="la"><em>Pater Noster</em></span>, <span lang="la"><em>Ave Maria</em></span> or <span lang="la"><em>Magnificat</em></span>. Thus, the analysis of the endpaper of codex 3138 of the Austrian National Library opens an additional path of research on early Greek studies in Renaissance time: learning a basic Greek knowledge, i.e. the letters, their pronunciation and first simple texts. Mainly the pronunciation of the vowels, alone and combined, demanded an explanation that the circulating Greek grammars did not offer, at least of the Greek scholars, Latin scholars became aware of this difficulty and supplemented passages on the pronunciation. Furthermore, the sheet of codex 3138 certifies a fact that can be observed in some early prints of Greek grammars as well: the basic texts for a prompt access to the language were texts well taken from (Latin) liturgy which explains why the texts appear re-translated from Latin. In determining the cultural origin of the well-trained scribe of this sheet the analysis shows – besides more or less western orthographic mistakes – typical differences as in correct accentuation and punctuation. In addition, the article intends to make researchers of Greek Renaissance humanism more sensitive for such paratexts, often transmitted only on endpapers or in free margins</p>
+        							<p lang="en-GB">Keywords: Elementary training in Ancient Greek, Renaissance, Hellenism, Greek Grammars</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art27">
+					<div class="row">
+						<div class="col-9">Ángel Escobar Chico</div>
+						<div class="col-3">167-187</div>
+					</div>
+					<div class="row">
+						<div class="col-9"><em>Aristóteles en la España del siglo XVI: las intervenciones manuscritas de Diego Hurtado de Mendoza en el impreso Escor. 25.III.11</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03EscobarChico/estudiosBizantinos03EscobarChico.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen27" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen27" tabindex="-1" role="dialog" aria-labelledby="resumenart27" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart27">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>El erudito español Diego Hurtado de Mendoza poseyó el segundo volumen de la <span lang="la"><em>editio Erasmiana</em></span> de Aristóteles (Basilea, J. Bebel, 1531; Real Biblioteca del Monasterio de El Escorial, Escor. 25.III.11). El impreso contiene algunas variantes griegas y notas latinas al margen escritas por Hurtado de Mendoza, sobre todo al texto de <span lang="la"><em>Eth. Nic.</em></span> I y <span lang="la"><em>Polit.</em></span> I-II. En los márgenes del impreso se documentan otras tres manos griegas contemporáneas, con muy diferente amplitud; una de ellas puede atribuirse a Arnoldo Arlenio. El contenido de las anotaciones de Hurtado de Mendoza revela su atención hacia algunos temas aristotélicos esenciales, así como un particular interés por la exégesis latina más tradicional (Cicerón, Tomás de Aquino). </p>
+        							<p>Palabras clave: Diego Hurtado de Mendoza, Aristóteles, <em>Ética</em>, <em>Política</em>, Arnoldo Arlenio</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">The Spanish scholar Diego Hurtado de Mendoza possessed the second volume of Aristotle’s <span lang="la"><em>editio Erasmiana</em></span>, printed in Basel by Johann Bebel (1531; Real Biblioteca del Monasterio de El Escorial,  Escor.  25.III.11).  This  printed  book  contains  some  Greek  variants  and  Latin  notes  added  in  the margins by Hurtado de Mendoza, principally on the text of <span lang="la"><em>Eth. Nic.</em></span> I and <span lang="la"><em>Polit.</em></span> I-II. Three other contemporary Greek hands appear in the margins of this book at a various extent; one of them can be tentatively attributed to Arnoldus Arlenius. The content of Hurtado’s notes reveals an attention to some of the principal Aristotelian subjects and a particular interest in the more traditional Latin exegesis (Cicero, Thomas of Aquinas).</p>
+        							<p lang="en-GB">Keywords: Aristotle’s <em>Ethics</em>, Aristotle’s <em>Politics</em>, Diego Hurtado de Mendoza, Arnoldus Arlenius</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+				<hr>
+				<article class="container" id="art28">
+					<div class="row">
+						<div class="col-9" lang="it">Paola Degni</div>
+						<div class="col-3">189-206</div>
+					</div>
+					<div class="row">
+						<div class="col-9" lang="it"><em>I manoscritti greci della biblioteca del monasterio del SS. Salvatore di Bologna attraverso gli inventari. Prime considerazioni</em></div>
+						<div class="col-3"><a href="https://archive.org/download/estudiosBizantinos03Degni/estudiosBizantinos03Degni.pdf" data-toggle="tooltip" title="Haga clic en el icono para descargar el archivo"><i class="fas fa-file-pdf"></i></a></div>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-xs" data-toggle="modal" data-target="#popupresumen28" title="Click here to read the abstract">Leer resumen</button>
+					<div class="modal fade" id="popupresumen28" tabindex="-1" role="dialog" aria-labelledby="resumenart28" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog-scrollable modal-dialog modal-dialog-centered modal-lg" role="document">
+    						<div class="modal-content">
+     							<div class="modal-header">
+        							<h5 class="modal-title" id="resumenart28">Resumen (<span lang="en-GB">Abstract</span>)</h5>
+     							</div>
+      							<div class="modal-body">
+        							<h6>Resumen</h6>
+        							<p>Esta contribución ofrece un análisis de los inventarios más antiguos de manuscritos griegos en el monasterio agustino de S. Salvador en Bolonia. La biblioteca de este monasterio floreció a lo largo del s. XVI gracias a adquisiciones de manuscritos griegos y latinos llevadas a cabo por Pellegrino Fabretti o Fabri en Venecia. Posteriormente, la colección siguió creciendo gracias a la actividad de transcripción de algunos de sus monjes más dotados. Entre los más hábiles escribiendo en griego y prolíficos en la copia de códices se encontraba Valeriano Albini. Este estudio propone una descripción analítica de los inventarios a fin de ofrecer una lista sinóptica de las signaturas antiguas y modernas de los manuscritos griegos. </p>
+        							<p>Palabras clave: manuscritos griegos, historia de las bibliotecas, inventarios de manuscritos, copistas italianos de textos griegos, Renacimiento en Italia</p>
+        							<hr>
+        							<h6 lang="en-GB">Abstract</h6>
+        							<p lang="en-GB">This  contribution  offers  an  analysis  of  the  most  ancient  manuscript  inventories  relative  to  the  Greek manuscripts of the Agostinian monastery of SS. Salvatore in Bologna. The library of this monastery  flourished  mainly  during  the  16th  century  thanks  to  purchases  of  Greek  and  Latin  manuscripts made in Venice by Pellegrino Fabretti or Fabri. Afterwards, its collection continued to grow up through the transcription activity of some of its most skilled monks. Among the most gifted in Greek writing and prolific in the manuscript copy was Valeriano Albini. The essay proposes an analytical description of the inventories in order to offer a synoptic list of the ancient and modern call numbers of the Greek manuscripts.</p>
+        							<p lang="en-GB">Keywords: Greek manuscripts, History of libraries, Inventories of manuscripts, Italian scribes of Greek texts, Italian Renaissance</p>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" title="Click here to close the window">Cerrar</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>	
+				</article>
+			</div>
+		</div>	
+	</main>
+<!--Pie de página -->
+<footer class="bg-light">
+<div class="container">
+	<div class="container" id="logos">
+		<a href="https://bizantinistica.blogspot.com" title="Ir a la web de la Sociedad Española de Bizantinística"><img src="img/logoSEB.jpg" id="logoSEB" class="img-fluid" alt="logo Sociedad Española de Bizantinística"></a>
+		<a href="http://cchs.csic.es/" title="Ir a la web del Centro de Ciencias Humanas y Sociales del CSIC"><img src="img/logoCCHS.png" id="logoCCHS" class="img-fluid" alt="logo CCHS-CSIC"></a>
+		<a href="https://www.csic.es/" title="Ir a la web del Consejo Superior de Investigaciones Científicas (CSIC)"><img src="img/logoCSIC.jpg" id="logoCSIC" class="img-fluid" alt="logo CSIC-Ministerio"></a>
+	</div>
+	<div class="container">
+		<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contacto" title="Contact">Contacto</button>
+		<div class="modal fade" id="contacto"> 
+		<div class="modal-dialog modal-dialog-centered modal-lg m">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Contacto</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+				<p>Página web diseñada por <a href="https://www.linkedin.com/in/carmengarciabueno/">Carmen García Bueno</a> para la <a href="https://bizantinistica.blogspot.com/">Sociedad Española de Bizantinística</a>.</p>
+				<p>Para cualquier cuestión técnica, duda o sugerencia, pueden ponerse en contacto con nosotros a través del <a href="mailto:estudiosbizantino@gmail.com">correo electrónico</a>.</p>
+				<strong>Dónde estamos:</strong>
+				<address>	
+					<p>Sociedad Española de Bizantinística<br>
+					Centro de Ciencias Humanas y Sociales - CSIC, despacho 1C16<br>
+					c/ Albasanz 26-28<br>
+					28037 Madrid (España)
+					</p>
+				</address>
+				<hr>
+				<p lang="en-GB">Website designed by <a href="https://www.linkedin.com/in/carmengarciabueno/">Carmen García Bueno</a> for the <a href="https://bizantinistica.blogspot.com/">Spanish Society of Byzantine Studies</a>.</p>
+				<p lang="en-GB">For technical issues or any other question, you can reach us via <a href="mailto:estudiosbizantino@gmail.com">e-mail</a> or at the aforementioned address.</p>	
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" title="Close">Cerrar</button>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+<script src="jquery/jquery-3.4.1.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+</script>
+</body>
+</html>
